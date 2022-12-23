@@ -1,2 +1,2 @@
 # js-hindi
-Chai with Code channel
+Chai with Code YouTube Channel

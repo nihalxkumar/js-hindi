@@ -14,7 +14,7 @@ let userEmail; // undefined         let userEmail = undefined      // undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console. tog( id === anotherId);
+console.log( id === anotherId);
 
 const bigNumber = 6458791254879465132n
 
@@ -62,3 +62,24 @@ JS is a dynamically typed language. Because data type will automatically assigne
 
 */
 
+// ++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory(Primitive, jo bhi variable declare kiya hai uska copy milta hai) and Heap Memory(Non-Primitive, original vlaue ka reference mitla hai jo bhi value change akrenge original mein change hoga)
+
+let myYoutubename="hiteshchoudharydotcom"
+let myAnothername = myYoutubename
+myAnothername="ChaiAurCode"
+
+console.log(myYoutubename);
+console.log(myAnothername);
+
+let userOne = {
+    email: "user@google. com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "hitesh@google. corn"
+
+console. log (userOne.email);
+console. log (userTwo.email);

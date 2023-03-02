@@ -3,7 +3,7 @@ const name = "hitesh"
 const repoCount = 50
 
 // console.log(name + " " + repoCount + " Value");    Outdated method
-// bapticks a.k.a String Interpolation console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);   Current Method
+// backticks a.k.a String Interpolation console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);   Current Method
 
 const gameName = new String('Hitech-HC') // obejct hi deraha hai array nahi hai. Key value pair banayega. length property dega. 
 
